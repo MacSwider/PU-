@@ -1,0 +1,752 @@
+ ans  =
+
+   1.
+
+--> x=6
+ x  = 
+
+   6.
+
+--> a+5
+
+Undefined variable: a
+
+--> a+5
+
+Undefined variable: a
+
+--> diary('plik', )
+
+diary: Nieprawidłowy typ argumentu wejściowego nr 2: oczekiwano łańcuch.
+
+--> diary('plik', [new])
+
+Undefined variable: new
+
+--> diary('plik',new)
+
+Undefined variable: new
+
+--> date
+ ans  =
+
+  "13-Gru-2022"
+
+--> matrix A=[1,2;3,4]
+matrix A=[1,2;3,4]
+                 ^^
+Error: syntax error, unexpected ], expecting end of file
+
+--> matrix A=1,2;3,4
+
+matrix: Nieprawidłowa liczba argumentów wejściowych: oczekiwano przynajmniej 2.
+
+--> vector
+
+Undefined variable: vector
+
+--> matrix
+
+matrix: Nieprawidłowa liczba argumentów wejściowych: oczekiwano przynajmniej 2.
+
+--> matrix A=(1,2;3,4)
+matrix A=(1,2;3,4)
+                 ^^
+Error: syntax error, unexpected ), expecting end of file
+
+--> diary('plik')
+ ans  =
+
+   2.
+
+--> matrix A=[1,2;3,4]
+matrix A=[1,2;3,4]
+                 ^^
+Error: syntax error, unexpected ], expecting end of file
+
+--> diary('plik')
+
+--> vector U=[2,9,-4]
+vector U=[2,9,-4]
+        ^^
+Error: syntax error, unexpected =, expecting end of file
+
+--> diary('plik')
+ ans  =
+
+   2.
+
+--> %pi
+ %pi  = 
+
+   3.1415927
+
+--> diary(plik-a)
+
+Undefined variable: plik
+
+--> diary('plik-a')
+ ans  =
+
+   3.
+
+--> matrix A= [1,2;3,4]
+matrix A= [1,2;3,4]
+                  ^^
+Error: syntax error, unexpected ], expecting end of file
+
+--> matrix A=[1,2;3,4]
+matrix A=[1,2;3,4]
+                 ^^
+Error: syntax error, unexpected ], expecting end of file
+
+--> diary('plik-a','append')
+ ans  =
+
+   4.
+
+--> x=5
+ x  = 
+
+   5.
+
+--> x=5
+ x  = 
+
+   5.
+
+--> diary('macierz')
+ ans  =
+
+   5.
+
+--> A=[1 2;3 5]
+ A  = 
+
+   1.   2.
+   3.   5.
+
+--> exec('D:\169370\scilab\macierz',-1)
+at line     1 of executed file D:\169370\scilab\macierz
+
+ ans  =
+^
+Error: syntax error, unexpected end of line
+
+--> who
+Your variables are:
+
+                   %chars                       %e
+                     %eps                    %fftw
+                     %gui                       %i
+                     %inf                      %io
+                     %nan                      %pi
+                       %s                      %tk
+                       %z                        A
+                      PWD                      SCI
+                  SCIHOME                   TMPDIR
+                     WSCI             annealinglib
+                      ans                assertlib
+              atomsguilib                 atomslib
+                 cacsdlib  compatibility_functilib
+               consolelib                  corelib
+       data_structureslib              datatipslib
+                     date            demo_toolslib
+     development_toolslib differential_equationlib
+          dynamic_linklib  elementary_functionslib
+                    enull                    evoid
+      external_objectslib                fileiolib
+             functionslib               geneticlib
+              graphicslib                   guilib
+                     help             helptoolslib
+                     home               integerlib
+         interpolationlib                    iolib
+                    jnull                   jvmlib
+                    jvoid        linear_algebralib
+                 m2scilib                 matiolib
+                    mkdir       modules_managerlib
+            neldermeadlib             optimbaselib
+          optimizationlib          optimsimplexlib
+         output_streamlib           overloadinglib
+            parameterslib             percentchars
+           polynomialslib           preferenceslib
+               randliblib           scicos_autolib
+         scicos_scicoslib          scicos_utilslib
+              scinoteslib     signal_processinglib
+                 soundlib                sparselib
+     special_functionslib           spreadsheetlib
+            statisticslib                stringlib
+                tclscilib                  timelib
+               ui_datalib                uitreelib
+               umfpacklib              webtoolslib
+         windows_toolslib                        x
+                  xcoslib             xmlGetValues
+                   xmllib
+ using          0 elements out of        8158.
+ and           91 variables out of          0.
+
+
+Your global variables are:
+
+         %helps  %modalWarning     %toolboxes %toolboxes_dir
+
+
+ using          0 elements out of        8158.
+ and            4 variables out of          0.
+
+
+--> dir
+ ans  =
+
+macierz plik plik-a plik-t 
+
+--> diary('wektory')
+ ans  =
+
+   6.
+
+--> v1= [4 -2 0]
+ v1  = 
+
+   4.  -2.   0.
+
+--> v2= [5 1 2]
+ v2  = 
+
+   5.   1.   2.
+
+--> diary('wektory','pause')
+
+--> v3= [0 1 2]
+ v3  = 
+
+   0.   1.   2.
+
+--> exec('D:\169370\scilab\wektory', -1)
+at line     1 of executed file D:\169370\scilab\wektory
+
+ ans  =
+^
+Error: syntax error, unexpected end of line
+
+--> diary('wektory','resume')
+
+--> v3= [0 1 2]
+ v3  = 
+
+   0.   1.   2.
+
+--> whos
+Nazwa                    Typ            Rozmiar        Bajtów       
+ 
+%chars                   st             1x1            12268        
+%e                       constant       1x1            216          
+%eps                     constant       1x1            216          
+%fftw                    boolean        1x1            212          
+%gui                     boolean        1x1            212          
+%helps                   constant*      0x0            208          
+%i                       constant       1x1            224          
+%inf                     constant       1x1            216          
+%io                      constant       1x2            224          
+%modalWarning            boolean*       1x1            212          
+%nan                     constant       1x1            216          
+%pi                      constant       1x1            216          
+%s                       polynomial     1x1            264          
+%tk                      boolean        1x1            212          
+%toolboxes               constant*      0x0            208          
+%toolboxes_dir           string*        1x1            312          
+%z                       polynomial     1x1            264          
+A                        constant       2x2            240          
+annealinglib             library                       1190         
+ans                      boolean        1x1            212          
+assertlib                library                       1142         
+atomsguilib              library                       466          
+atomslib                 library                       2488         
+cacsdlib                 library                       10106        
+compatibility_functilib  library                       8356         
+consolelib               library                       338          
+corelib                  library                       1248         
+data_structureslib       library                       954          
+datatipslib              library                       1314         
+date                     function                      2262         
+demo_toolslib            library                       1134         
+development_toolslib     library                       922          
+differential_equationlib library                       784          
+dir                      function                      7346         
+dynamic_linklib          library                       1816         
+elementary_functionslib  library                       7134         
+enull                    _EObj          ?              884          
+evoid                    _EVoid         ?              886          
+external_objectslib      library                       414          
+fileiolib                library                       998          
+functionslib             library                       1194         
+geneticlib               library                       1662         
+graphicslib              library                       10754        
+guilib                   library                       1114         
+help                     function                      7214         
+helptoolslib             library                       1576         
+home                     string         1x1            244          
+integerlib               library                       3190         
+interpolationlib         library                       502          
+iolib                    library                       554          
+jnull                    _EObj          ?              884          
+jvmlib                   library                       488          
+jvoid                    _EVoid         ?              886          
+linear_algebralib        library                       2608         
+m2scilib                 library                       536          
+matiolib                 library                       474          
+mkdir                    function                      14708        
+modules_managerlib       library                       2110         
+nargin                   constant       1x1            216          
+nargout                  constant       1x1            216          
+neldermeadlib            library                       2706         
+optimbaselib             library                       2478         
+optimizationlib          library                       1094         
+optimsimplexlib          library                       3164         
+output_streamlib         library                       596          
+overloadinglib           library                       45506        
+parameterslib            library                       702          
+percentchars             function                      10611        
+polynomialslib           library                       1856         
+preferenceslib           library                       446          
+PWD                      string         1x1            264          
+randliblib               library                       688          
+SCI                      string         1x1            294          
+scicos_autolib           library                       468          
+scicos_scicoslib         library                       9260         
+scicos_utilslib          library                       976          
+SCIHOME                  string         1x1            316          
+scinoteslib              library                       448          
+signal_processinglib     library                       4058         
+soundlib                 library                       990          
+sparselib                library                       1014         
+special_functionslib     library                       736          
+spreadsheetlib           library                       342          
+statisticslib            library                       2512         
+stringlib                library                       1054         
+tclscilib                library                       5024         
+timelib                  library                       812          
+TMPDIR                   string         1x1            318          
+ui_datalib               library                       434          
+uitreelib                library                       1010         
+umfpacklib               library                       784          
+v1                       constant       1x3            232          
+v2                       constant       1x3            232          
+v3                       constant       1x3            232          
+webtoolslib              library                       288          
+whos                     function                      18350        
+windows_toolslib         library                       348          
+WSCI                     string         1x1            298          
+x                        constant       1x1            216          
+xcoslib                  library                       2016         
+xmlGetValues             function                      11136        
+xmllib                   library                       416          
+
+--> pwd
+ ans  =
+
+  "D:\169370\scilab"
+
+--> B=[2 4;3 1]
+ B  = 
+
+   2.   4.
+   3.   1.
+
+--> C=A*B
+ C  = 
+
+   8.    6. 
+   21.   17.
+
+--> drop
+
+Undefined variable: drop
+
+--> gura=2/7
+ gura  = 
+
+   0.2857143
+
+--> clear gura
+
+--> v1(2)
+ ans  =
+
+  -2.
+
+--> %eps
+ %eps  = 
+
+   2.220D-16
+
+--> s= !5
+
+Undefined variable: !5
+
+--> s= 1**5
+ s  = 
+
+   1.
+
+--> clear s
+
+--> s = factorial(5)
+ s  = 
+
+   120.
+
+--> v4=v1/v2
+ v4  = 
+
+   0.6000000
+
+--> clear v4
+
+--> det(A)
+ ans  =
+
+  -1.0000000
+
+--> det(B)
+ ans  =
+
+  -10.
+
+--> size(A)
+ ans  =
+
+   2.   2.
+
+--> spec(A)
+ ans  =
+
+  -0.1622777 + 0.i
+   6.1622777 + 0.i
+
+--> eye(3,3)
+ ans  =
+
+   1.   0.   0.
+   0.   1.   0.
+   0.   0.   1.
+
+--> max(A)
+ ans  =
+
+   5.
+
+--> dziel=det(A)/det(B)
+ dziel  = 
+
+   0.1000000
+
+--> A=[6 2;3 5]
+ A  = 
+
+   6.   2.
+   3.   5.
+
+--> dziel=det(A)/det(B)
+ dziel  = 
+
+  -2.4
+
+--> function[f]=fibbo(6)
+  > f=[1 1]
+  > temp=0
+  > for i=2/n
+  > temp=f($) =f($-1)
+  > f=[f temp]
+  > end
+  > endfunction
+function[f]=fibbo(6)
+                  ^^
+Error: syntax error, unexpected integer, expecting ) or identifier
+
+--> function[f]=fibbo(n)
+  > f=[1 1]
+  > temp=0
+  > temp=f($) =f($-1)
+  > f=[f temp]
+  > end
+temp=f($) =f($-1)
+          ^^
+Error: syntax error, unexpected =, expecting end or endfunction
+
+--> plot(sin(x))
+
+--> x=1
+ x  = 
+
+   1.
+
+--> plot(sin(x))
+
+--> d=plot(sin(x))
+ d  = 
+
+Handle of type "Polyline" with properties:
+==========================================
+parent: Compound
+children: []
+datatips: []
+datatip_display_mode: "always"
+display_function = ""
+display_function_data = []
+visible = "on"
+data = [1,0.841471]
+closed = "off"
+line_mode = "on"
+fill_mode = "off"
+line_style = 1
+thickness = 1
+arrow_size_factor = 1
+polyline_style = 1
+foreground = 2
+background = -2
+interp_color_vector = []
+interp_color_mode = "off"
+colors = []
+mark_mode = "off"
+mark_style = 0
+mark_size_unit = "point"
+mark_size = 0
+mark_foreground = -1
+mark_background = -2
+mark_offset = 0
+mark_stride = 1
+x_shift = []
+y_shift = []
+z_shift = []
+bar_width = 0
+clip_state = "clipgrf"
+clip_box = []
+user_data = []
+tag = ""
+
+--> d=plot(sin(1))
+ d  = 
+
+Handle of type "Polyline" with properties:
+==========================================
+parent: Compound
+children: []
+datatips: []
+datatip_display_mode: "always"
+display_function = ""
+display_function_data = []
+visible = "on"
+data = [1,0.841471]
+closed = "off"
+line_mode = "on"
+fill_mode = "off"
+line_style = 1
+thickness = 1
+arrow_size_factor = 1
+polyline_style = 1
+foreground = 2
+background = -2
+interp_color_vector = []
+interp_color_mode = "off"
+colors = []
+mark_mode = "off"
+mark_style = 0
+mark_size_unit = "point"
+mark_size = 0
+mark_foreground = -1
+mark_background = -2
+mark_offset = 0
+mark_stride = 1
+x_shift = []
+y_shift = []
+z_shift = []
+bar_width = 0
+clip_state = "clipgrf"
+clip_box = []
+user_data = []
+tag = ""
+
+
+  "get: Uchwyt (handle) nie był lub już nie jest prawidłowy"
+--> clear d
+
+--> plot2d
+
+--> fplot3d
+
+--> plot(x,y)
+
+Undefined variable: y
+
+--> plot(2,3)
+
+--> fplot4d
+
+Undefined variable: fplot4d
+
+--> fplot3d
+
+WARNING: Mouse moving picker ON => Console LOCKED
+On a figure: Click left to get and set. Click middle to QUIT...
+operation -: Warning adding a matrix with the empty matrix will give an empty matrix result.
+operation -: Warning adding a matrix with the empty matrix will give an empty matrix result.
+operation -: Warning adding a matrix with the empty matrix will give an empty matrix result.
+operation -: Warning adding a matrix with the empty matrix will give an empty matrix result.
+operation -: Warning adding a matrix with the empty matrix will give an empty matrix result.
+operation -: Warning adding a matrix with the empty matrix will give an empty matrix result.
+operation -: Warning adding a matrix with the empty matrix will give an empty matrix result.
+operation -: Warning adding a matrix with the empty matrix will give an empty matrix result.
+--> plot(A)
+at line   472 of function plot            ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\graphics\macros\plot.sci line 485 )
+at line   -11 of function ged_move_entity ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\tclsci\macros\ged_move_entity.sci line 1 )
+at line    68 of function ged             ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\graphics\macros\ged.sci line 79 )
+
+set: Uchwyt (handle) nie był lub już nie jest prawidłowy
+at line     7 of function %h_e            ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\graphics\macros\%h_e.sci line 19 )
+at line    31 of function ged_move_entity ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\tclsci\macros\ged_move_entity.sci line 43 )
+at line    68 of function ged             ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\graphics\macros\ged.sci line 79 )
+
+get: Uchwyt (handle) nie był lub już nie jest prawidłowy
+
+--> plot(A/B*C)
+
+--> plot(sin(a))
+
+Undefined variable: a
+
+--> plot(sin(A))
+
+--> plot(sin(B))
+
+--> plot(X,sin)
+
+Undefined variable: X
+
+--> plot(x,sin)
+
+--> clear x
+
+--> x=2
+ x  = 
+
+   2.
+
+--> plot(x,sin)
+
+--> x=63
+ x  = 
+
+   63.
+
+--> plot(x,sin)
+
+--> plot(sin(0:0.1:2*pi)
+plot(sin(0:0.1:2*pi)
+                   ^^
+Error: syntax error, unexpected end of file, expecting "," or )
+
+--> G=0 : 0.1 : 10
+ G  = 
+
+         column 1 to 11
+
+   0.   0.1   0.2   0.3   0.4   0.5   0.6   0.7   0.8   0.9   1.
+
+         column 12 to 22
+
+   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.   2.1
+
+         column 23 to 33
+
+   2.2   2.3   2.4   2.5   2.6   2.7   2.8   2.9   3.   3.1   3.2
+
+         column 34 to 42
+
+   3.3   3.4   3.5   3.6   3.7   3.8   3.9   4.   4.100000000000001
+
+         column 43 to 48
+
+   4.2   4.3   4.4   4.5   4.600000000000001   4.7
+
+         column 49 to 53
+
+   4.800000000000001   4.9   5.   5.100000000000001   5.2
+
+         column 54 to 58
+
+   5.300000000000001   5.4   5.5   5.600000000000001   5.7
+
+         column 59 to 63
+
+   5.800000000000001   5.9   6.   6.100000000000001   6.2
+
+         column 64 to 68
+
+   6.300000000000001   6.4   6.5   6.600000000000001   6.7
+
+         column 69 to 73
+
+   6.800000000000001   6.9   7.   7.100000000000001   7.2
+
+         column 74 to 78
+
+   7.300000000000001   7.4   7.5   7.600000000000001   7.7
+
+         column 79 to 83
+
+   7.800000000000001   7.9   8.   8.1   8.200000000000001
+
+         column 84 to 88
+
+   8.300000000000001   8.4   8.5   8.6   8.700000000000001
+
+         column 89 to 93
+
+   8.800000000000001   8.9   9.   9.1   9.200000000000001
+
+         column 94 to 97
+
+   9.300000000000001   9.4   9.5   9.600000000000001
+
+         column 98 to 101
+
+   9.700000000000001   9.800000000000001   9.9   10.
+
+--> plot(sin(x)
+plot(sin(x)
+          ^^
+Error: syntax error, unexpected end of file, expecting "," or )
+
+--> plot(sin(x))
+
+--> G=0 : 0.1 : 10;y=sin(x)
+ y  = 
+
+   0.167355700302807
+
+--> plot(x,y)
+
+--> clear G; clear y
+
+--> plot(sin([0:0.01:2*%pi]))
+
+--> plot(sin([0:0.01:2*%pi]));plot(cos([0:0.01:2*%pi]));
+
+--> fplot3d(sin([0:0.01:2*%pi]));fplot3d(cos([0:0.01:2*%pi]));
+at line    22 of function fplot3d ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\graphics\macros\fplot3d.sci line 33 )
+
+fplot3d: Nieprawidłowa liczba argumentów wejściowych: oczekiwano przynajmniej 3.
+--> fplot3d(sin([0:0.01:2*%pi:2]));fplot3d(cos([0:0.01:2*%pi:2]));
+
+':': Too many ':' or wrong type for argument 1: Real scalar expected.
+
+--> fplot3d(sin([0:0.01:2*%pi]))
+at line    22 of function fplot3d ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\graphics\macros\fplot3d.sci line 33 )
+
+fplot3d: Nieprawidłowa liczba argumentów wejściowych: oczekiwano przynajmniej 3.
+--> fplot3d(sin([0:0.01:2*%pi]),6)
+at line    22 of function fplot3d ( C:\Users\local\AppData\Local\scilab-6.1.1\modules\graphics\macros\fplot3d.sci line 33 )
+
+fplot3d: Nieprawidłowa liczba argumentów wejściowych: oczekiwano przynajmniej 3.
+--> quit
